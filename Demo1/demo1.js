@@ -7,9 +7,17 @@ new Vue({
         message: 'Hello Vue'
     }
 })
+
 new Vue({
     el: "#vue2",
     data: {
         message: 'You loaded this page on ' + new Date()
+    }
+})
+
+new Vue({
+    el: "#vue3",
+    data: {
+        see: false
     }
 })
