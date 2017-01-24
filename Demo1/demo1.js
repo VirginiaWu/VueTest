@@ -21,3 +21,14 @@ new Vue({
         see: false
     }
 })
+
+new Vue({
+    el: "#vue4",
+    data: {
+        todos: [
+            {text: "Learn 11111"},
+            {text: "Learn 22222"},
+            {text: "Learn 33333"}
+        ]
+    }
+})

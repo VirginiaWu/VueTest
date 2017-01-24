@@ -15,6 +15,13 @@
     <div id="vue3">
         <p v-if="see">You can see me.</p>
     </div>
+    <div id="vue4">
+        <ul>
+            <li v-for="todo in todos">
+                {{ todo.text }}
+            </li>
+        </ul>
+    </div>
 </body>
 <script src="./demo1.js"></script>
 </html>
